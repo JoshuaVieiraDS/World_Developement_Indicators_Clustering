@@ -6,6 +6,7 @@ This Jupyter Notebook performs clustering on an interpolated dataset using K-Mea
 ## Files
 - `Clustering_Notebook.ipynb`: Jupyter Notebook performing preprocessing, clustering, PCA/t-SNE visualization, and cluster evaluation.
 - `Report.pdf`: A report with the results and evaluations.
+- `WDI.csv`: The actual dataset, this was too big to upload, so you can download it and test it from https://databank.worldbank.org/source/world-development-indicators#.
 
 ## Requirements
 ```python
@@ -20,3 +21,4 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
+
